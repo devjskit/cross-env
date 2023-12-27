@@ -1,4 +1,4 @@
-# @whatskit/cross-env
+# @devjskit/cross-env
 
 Run scripts that set and use environment variables across platforms
 
@@ -12,9 +12,9 @@ and on windows you use `%ENV_VAR%`.
 
 ## This solution
 
-`@whatskit/cross-env` makes it so you can have a single command without worrying about
+`@devjskit/cross-env` makes it so you can have a single command without worrying about
 setting or using the environment variable properly for the platform. Just set it
-like you would if it's running on a POSIX system, and `@whatskit/cross-env` will take care
+like you would if it's running on a POSIX system, and `@devjskit/cross-env` will take care
 of setting it properly.
 
 ## Installation
@@ -23,7 +23,7 @@ This module is distributed via [npm][npm] which is bundled with [node][node] and
 should be installed as one of your project's `devDependencies`:
 
 ```
-npm install --save-dev @whatskit/cross-env
+npm install --save-dev @devjskit/cross-env
 ```
 
 > WARNING! Make sure that when you're installing packages that you spell things
